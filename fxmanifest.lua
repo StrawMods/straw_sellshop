@@ -6,13 +6,9 @@ author 'Straw'
 description 'Simple sellshop script'
 version '1.0'
 
-client_scripts {
-  'client/**.lua'
-}
+client_scripts 'client.lua'
 
-server_scripts {
-  'server/**.lua'
-}
+server_script 'server.lua'
 
 shared_scripts {
   '@ox_lib/init.lua',
