@@ -1,22 +1,20 @@
 Config = {}
 
-Config.checkForUpdates = true -- Preveri za posodobitve?
-
-Config.SellShops = { 
-    { 
-        coords = vec3(1574.6672, 3363.9365, 47.6350), 
-        heading = 177.4037, 
-        ped = 's_m_y_blackops_01', -- https://docs.fivem.net/docs/game-references/ped-models/
-        label = '', -- tukaj vnesi kar hočeš da piše ko odpreš shop
-        blip = {
-            enabled = false, 
-            sprite = 11, 
-            color = 11, 
-            scale = 0.75 
-        },
-        items = {
-            { item = '', label = '', price = 0, currency = 'money' }, -- item = item name, label = kaj piše v shopu in game, currency = tvoj item name example: black_money, money.
-            { item = '', label = '', price = 0, currency = 'money' }, 
-            { item = '', label = '', price = 0, currency = 'money' }, 
-        }
-    }
+Config.SellShops = {
+{ 
+    coords = vec3(116.4545, -1953.7479, 20.7513), -- if ur ped is in the air on in the groud change z coord
+    heading = 44.7236, 
+    ped = 'g_m_importexport_01', -- https://docs.fivem.net/docs/game-references/ped-models/
+    label = 'Market',
+    blip = {
+        enabled = false,
+        sprite = 11,
+        color = 11,
+        scale = 0.75
+    },
+    items = {
+        { item = 'gold', label = 'Gold Bar', price = 100, currency = 'black_money' },
+        { item = 'diamond', label = 'Diamond', price = 400, currency = 'black_money' },
+     }
+  },
+}
