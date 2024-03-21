@@ -1,6 +1,6 @@
 ESX = exports["es_extended"]:getSharedObject()
 
-lib.callback.register('ws_sellshop:sellItem', function(source, data)
+lib.callback.register('straw_sellshop:sellItem', function(source, data)
     local xPlayer = ESX.GetPlayerFromId(source)
     local xItem = xPlayer.getInventoryItem(data.item)
     if xItem.count < data.quantity then
