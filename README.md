@@ -1,11 +1,11 @@
 # straw_sellshop
 
-## Straw Sell Shop
+## Straw Sell Shop ESX
 
 ### Dependencies
-- ox_lib - https://github.com/overextended/ox_lib/releases
-- qtarget- https://github.com/overextended/qtarget/releases
+- ox_lib - https://github.com/overextended/ox_lib
+- ox_target - https://github.com/overextended/ox_target
 - es_extended
 
 
-**0.00ms usage
+**0.00ms usage**
